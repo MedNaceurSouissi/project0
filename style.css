@@ -1,0 +1,49 @@
+table th, #status {
+  border-style: solid;
+  border-width: 1px;
+}
+
+div > span {
+  margin-right: 5px;
+  padding: 5px;
+}
+
+@media (max-width: 599px) {
+  img {
+    float: center;
+  }
+}
+@media (min-width: 600px) {
+  img {
+    float: left;
+  }
+}
+img {
+  margin-right: 50px;
+}
+
+#type_1 {
+  background-color: green;
+}
+
+#type_2 {
+  background-color: purple;
+}
+
+#type_f{
+  background-color: orange;
+}
+
+#type_w{
+  background-color: aqua;
+}
+
+table td {
+  color: orange;
+}
+
+.title {
+  font: Calibri;
+  font-style: oblique;
+  font-size: 20 px;
+}
